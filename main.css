@@ -30,7 +30,4 @@
 .topnav .icon {
   display: none;
   
-  body {
-background-image: url("background.jpg"), url("background.jpg");
-background-color: #cccccc;
-}
+  
