@@ -71,7 +71,19 @@ body {
   width: 100%;
   height: 100%;
 }
-</style>
+     * {
+            margin: 0;
+            padding: 0;
+        }
+        .imgbox {
+            display: grid;
+            height: 100%;
+        }
+        .center-fit {
+            max-width: 100%;
+            max-height: 100vh;
+            margin: auto;
+        }</style>
 <link rel="apple-touch-icon" href="img1.jpg">
 </head>
 <body>
@@ -181,7 +193,8 @@ p {
 </style>
 <div style="margin-top: 30px;">
 <div>
- <img alt="screen3" src="https://media.giphy.com/media/EJ5iVYScVNuwewuFCn/giphy.gif" width="500" height="400">
+ <div class="imgbox">
+    <img class="center-fit" src="https://media.giphy.com/media/EJ5iVYScVNuwewuFCn/giphy.gif"></div>
 
 
 
