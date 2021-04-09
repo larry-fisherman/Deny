@@ -1,15 +1,24 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en"><head>
-
+<link rel="stylesheet" type="text/css" href="../../style/addtohomescreen.css">
+<script src="../../src/addtohomescreen.js"></script>
+<script>
+addToHomescreen();
+</script>
+  <script> 
+	  if (
+		  (("standalone" in window.navigator.standalone) //iOS
+		   ||
+		   (!window.matchMedia('(display-mode: standalone)').matches ) //android
+		   ) {
+		  addToHomeScreen();
+	  }
+	</script>
+	
 <link rel="stylesheet" type="text/css" href="main.css">
     <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="icon" href="img1.jpg">
-  <link rel="stylesheet" type="text/css" href="/style/addtohomescreen.css">
-<script src="/src/addtohomescreen.js"></script>
-<script>
-addToHomescreen();
-</script>
 <style>
 body {
   margin: 0;
@@ -66,7 +75,9 @@ body {
     text-align: left;
   }
 }
-</style><link rel="apple-touch-icon" href="img1.jpg"><link rel="apple-touch-icon" href="img1.jpg"></head>
+</style>
+<link rel="apple-touch-icon" href="img1.jpg">
+<link rel="apple-touch-icon" href="img1.jpg"></head>
 
 
 
@@ -184,13 +195,13 @@ p {
   <div class="text"></div>
 </div>
 
-<div class="mySlides fade" style="display: none;">
+<div class="mySlides fade" style="display: block;">
   <div class="numbertext">2 / 3</div>
   <img style="width:100%" src="https://raw.githubusercontent.com/Looney-Network/TV/main/slide2.jpg">
   <div class="text"></div>
 </div>
 
-<div class="mySlides fade" style="display: block;">
+<div class="mySlides fade" style="display: none;">
   <div class="numbertext">3 / 3</div>
   <img style="width:100%" src="https://raw.githubusercontent.com/Looney-Network/TV/main/spider-verse.jpg">
   <div class="text"></div>
@@ -201,8 +212,8 @@ p {
 
 <div style="text-align:center">
   <span class="dot"></span>
-  <span class="dot"></span>
   <span class="dot active"></span>
+  <span class="dot"></span>
 </div>
 
 <script>
