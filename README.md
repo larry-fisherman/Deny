@@ -8,9 +8,9 @@ Looney Network is compatible with all devices. (PC, tablets, iOS, Android)
 FEATURES:
  
  *Stream movies and tv shows for free.*
- *Download movies and tv shows for on the go*
- *watch LIVE TV*
- *Looney Network is safe, compatible and easy to use*
+ *Download movies and tv shows for on the go.*
+ *watch LIVE TV.*
+ *Looney Network is safe, compatible and easy to use.*
  
 
 This is a small project for fun/personal use.
